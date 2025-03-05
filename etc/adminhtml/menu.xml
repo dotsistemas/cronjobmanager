@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend/etc/menu.xsd">
+    <menu>
+        <add id="DotSistemas_CronjobManager::base" title="Dot Sistemas" module="DotSistemas_CronjobManager" sortOrder="20" resource="Magento_Backend::content" />
+        <add id="DotSistemas_CronjobManager::job_manager" title="Job Manager" module="DotSistemas_CronjobManager" sortOrder="1" action="dotsistemas_cronjobmanager/jobs/index" parent="DotSistemas_CronjobManager::base" resource="Magento_Backend::content" />
+    </menu>
+</config>
